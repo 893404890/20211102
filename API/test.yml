@@ -1,0 +1,6 @@
+by: xpath
+find: //*['classtest']
+action: click
+
+
+

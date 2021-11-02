@@ -1,0 +1,19 @@
+登录成功:
+    url: http://120.133.67.133:20007/login
+    headers:
+      content-type: application/json
+      Cookie: eoajofaeiofhioeahgea
+    data:
+      username: admin
+      password: bonree
+      catche: bonree
+登录失败:
+    url: http://120.133.67.133:20007/login
+    headers:
+      content-type: application/json
+      Cookie: eoajofaeiofhioeahgea
+    data:
+      username: admin
+      password: bonree
+      catche: bonree
+

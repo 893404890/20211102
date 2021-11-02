@@ -1,0 +1,8 @@
+baseurl: http://
+mysql:
+    host: 10.241.110.1
+    port: 3306
+    db: br_license
+    user: root
+    password: 123456
+
