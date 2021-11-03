@@ -13,8 +13,8 @@ class BaseApi:
         :return:
         '''
         conf=self.load_yaml('../config/baseconf.yml')
-        r=requests.request(method, conf['baseurl']+url, **kwargs)
         logger.info(f'******************接口请求信息********************\n{method, url, kwargs}')
+        r=requests.request(method, conf['baseurl']+url, **kwargs)
         logger.info(f'******************接口返回信息********************\n{r.json()}')
         return r
     def mysql_select(self,sql):

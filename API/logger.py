@@ -3,10 +3,8 @@ import os
 import time
 
 from logging.handlers import RotatingFileHandler
-now = time.strftime('%Y-%m-%d-%H_%M_%S', time.localtime(time.time()))
+
 day = time.strftime('%Y-%m-%d', time.localtime(time.time()))
-
-
 # 绑定绑定句柄到logger对象
 logger = logging.getLogger(__name__)
 # 获取当前工具文件所在的路径

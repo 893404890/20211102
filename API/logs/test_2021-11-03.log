@@ -1,0 +1,4 @@
+[2021-11-03 16:33:03] [INFO] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'Vayt32IzfiAG/16UBOpEMaV9O6RxlZSZwxQuzRaj4q4=', 'captcha': 'bonr2ee'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-03 16:33:03] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
