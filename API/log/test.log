@@ -1,4 +1,4 @@
-2021-11-03 16:33:03 [INFO] ******************接口请求信息********************
-('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'Vayt32IzfiAG/16UBOpEMaV9O6RxlZSZwxQuzRaj4q4=', 'captcha': 'bonr2ee'}, 'headers': {'Content-Type': 'application/json'}}) (baseapi.py:17)
-2021-11-03 16:33:03 [INFO] ******************接口返回信息********************
-{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} (baseapi.py:18)
+2021-11-03 16:35:39 [INFO] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'Vayt32IzfiAG/16UBOpEMaV9O6RxlZSZwxQuzRaj4q4=', 'captcha': 'bonr2ee'}, 'headers': {'Content-Type': 'application/json'}}) (baseapi.py:15)
+2021-11-03 16:35:39 [INFO] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} (baseapi.py:17)

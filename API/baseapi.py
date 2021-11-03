@@ -1,4 +1,3 @@
-import logging
 import pymysql
 import yaml
 import requests
