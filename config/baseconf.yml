@@ -1,4 +1,4 @@
-baseurl: http://
+baseurl: http://120.133.67.133:20007
 mysql:
     host: 10.241.110.1
     port: 3306
